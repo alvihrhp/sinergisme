@@ -1,0 +1,2421 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+/*** FONTS ***/
+
+@font-face {
+    font-family: 'GothamRnd-Light';
+    src: url('/assets/fonts/GothamRnd-Light.otf');
+}
+
+@font-face {
+    font-family: 'GothamRnd-Medium';
+    src: url('/assets/fonts/GothamRnd-Medium.otf');
+}
+
+@font-face {
+    font-family: 'GothamRnd-Bold';
+    src: url('/assets/fonts/GothamRnd-Bold.otf');
+}
+
+@font-face {
+    font-family: 'Gotham-Regular';
+    src: url('/assets/fonts/Gotham-Regular.otf');
+}
+
+@font-face {
+    font-family: 'Gotham-Ultra';
+    src: url('/assets/fonts/Gotham-Ultra.otf');
+}
+
+@font-face {
+    font-family: 'Gotham-Medium';
+    src: url('/assets/fonts/Gotham-Medium.otf');
+}
+
+@font-face {
+    font-family: 'GothamRnd-Book';
+    src: url('/assets/fonts/GothamRnd-Book.otf');
+}
+
+@font-face {
+    font-family: 'Gotham-Bold';
+    src: url('/assets/fonts/Gotham-Bold.otf');
+}
+
+@font-face {
+    font-family: 'Gotham-Black';
+    src: url('/assets/fonts/Gotham-Black.otf');
+}
+
+/*** FONTS ***/
+
+/*** TOP NAV ***/
+
+#top-nav-container {
+    background-color: #005E9C;
+}
+
+.top-nav {
+    padding: 6px 0;
+}
+
+.top-nav p {
+    margin-bottom: 0;
+    font-size: 15px;
+    color: white;
+}
+
+/*** TOP NAV ***/
+
+/*** NAVBAR ***/
+
+.navbar-home {
+    background-color: #005E9C;
+}
+
+.navbar-brand img {
+    width: 100%;
+    height: 100%;
+}
+
+.nav-link {
+    font-size: 17px;
+    color: white !important;
+    font-family: 'Gotham-Regular';
+    margin: 0 10px 0 0;
+
+}
+
+/*** NAVBAR ***/
+
+/*** BANNER ***/
+
+.banner-content {
+    position: relative;
+    padding: 45px 0 0 0;
+}
+
+.banner-content h1 {
+    font-family: 'Gotham-Ultra';
+    color: #005E9C;    
+    font-size: 3.4em;
+}
+
+.banner-content button {
+    background-color: #EF8122;
+    color: white;
+    border: none;
+    font-family: 'GothamRnd-Medium';
+    padding: 8px 20px;
+    border-radius: 37px;
+    font-size: 1.2em;
+    word-spacing: 1px;
+}
+
+.banner-screen {
+    width: 50%;
+}
+
+.banner-blog {
+    position: relative;
+    bottom: 50px;
+    cursor: pointer;
+    width: 40%;
+}
+
+/*** BANNER ***/
+
+/*** OUR SERVICE ***/
+
+.our-service-title {
+    color: white;
+    font-family: 'Gotham-Regular';
+}
+
+.service-icon-container {
+    background-color: #EF8122;
+    border-radius: 50%;
+    width: 225px;
+    margin-bottom: 100px;
+    box-sizing: border-box;
+    cursor: pointer;
+    height: 225px;
+}
+
+.service-icon-container h5 {
+    color: white;
+    font-family: 'GothamRnd-Bold';
+}
+
+/*** OUR SERVICE ***/
+
+/*** ABOUT US ***/
+
+.about-us-title {
+    color: #EF8122;
+    font-family: 'Gotham-Regular';
+}
+
+.image-about-us {
+    width: 40%;
+}
+
+.about-us-single-title {
+    color:#005E9C;
+    font-family: 'GothamRnd-Bold';
+}
+
+.about-us-single-text {
+    text-align: center;
+    font-family: 'GothamRnd-Book';
+    
+}
+
+/*** ABOUT US ***/
+
+/*** WHY ***/
+
+.why-title {
+    color: white;
+    text-align: center;
+    font-family: 'Gotham-Regular';
+}
+
+.mail-card {
+    background: url('/assets/images/new-newsletter.svg') no-repeat center;
+    background-size: contain;
+    margin-top: 30px;
+    position: relative;
+}
+
+.mail-card-content {
+    padding: 50px 60px;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0px;
+    left: 0;
+}
+
+.mail-card-content h2 {
+    font-family: 'GothamRnd-Bold';
+    color: #005E9C;
+    font-size: 4em;
+}
+
+.form-newsletter {
+    margin-top: 2.2vw;
+}
+
+.title-input-newsletter {
+    color: #005E9C;
+    font-family: 'GothamRnd-Bold';
+}
+
+.input-form-newsletter {
+    width: 90%;
+    padding: 16px 6px;
+    border-radius: 10px;
+    border: 1px solid black;
+    background-color: rgba(232, 232, 232, 1);
+    font-family: 'GothamRnd-Medium';
+}
+
+.input-form-newsletter:focus {
+    outline: none;
+}
+
+.btn-newsletter {
+    margin-top: 50px;
+    font-family: 'GothamRnd-Bold';
+    background-color: #EF8122;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 10px;
+    font-size: 1.1em;
+    letter-spacing: 0.5px;
+}
+
+/*** WHY ***/
+
+/*** CONTACT US ***/
+
+.contact-us-title {
+    font-family: 'Gotham-Regular';
+    color: #005E9C;
+    font-size: 50px;
+}
+
+.input-contact-us-container {
+    margin: 10px 0;
+}
+
+.input-contact-us {
+    width: 100%;
+    border: 1px solid #005E9C;
+    padding: 14px 18px;
+    border-radius: 18px;
+    font-family: 'GothamRnd-Bold';
+}
+
+.input-contact-us::placeholder {
+    font-family: 'GothamRnd-Bold';
+    color: black;
+    font-size: 0.9em;
+}
+
+.input-contact-us:focus {
+    outline: none;
+}
+
+.textarea-contact-us {
+    width: 100%;
+    border: 1px solid #005E9C;
+    padding: 14px 18px;
+    border-radius: 18px;
+    font-family: 'GothamRnd-Bold';
+    height: 160px;
+}
+
+.textarea-contact-us::placeholder {
+    font-family: 'GothamRnd-Bold';
+    color: black;
+    font-size: 0.9em;
+}
+
+.textarea-contact-us:focus {
+    outline: none;
+}
+
+.btn-contact-us {
+    margin-top: 10px;
+    margin-right: auto;
+    padding: 5px 20px;
+    background-color:#EF8122;
+    color: white;
+    border-radius: 10px;
+    font-family: 'GothamRnd-Medium';
+}
+
+.contact-us-address {
+    font-family: 'GothamRnd-Medium';
+    color: #005E9C;
+}
+
+.contact-us-address-first {
+    font-family: 'Gotham-Regular';
+}
+
+.contact-us-list {
+    margin-top: 30px;
+}
+
+.icon-contact-us-container {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background-color: #EF8122;
+}
+
+.icon-contact-us-container img {
+    width: 100%;
+    padding: 5px;
+}
+
+.contact-us-list-content {
+    margin-top: 15px;
+}
+
+.contact-us-list-content h5 {
+    margin-left: 0.8em;
+    font-family: 'GothamRnd-Medium';
+    color: #005E9C;
+}
+
+.logo-colour {
+    position: relative;
+    right: 25px;
+}
+/*** CONTACT US ***/
+
+/*** FOOTER ***/
+
+.footer-title {
+    font-family: 'Gotham-Regular';
+    color: white;
+    margin-top: 30px;
+}
+
+.footer-logo {
+    height: 100%;
+}
+
+.footer-address {
+    font-family: 'GothamRnd-Medium';
+    color: white;
+    margin-top: 15px;
+}
+
+.row-copyright {
+    margin: 40px 0 30px 0;
+}
+
+.row-copyright h6 {
+    text-align: center;
+    color: white;
+    font-family: 'GothamRnd-Medium';
+}
+
+/*** FOOTER ***/
+
+/*** WHY US ***/
+
+.why-us-title {
+    color: white;
+    font-family: 'Gotham-Regular';
+}
+
+.list-why-us-container {
+    margin-top: 40px;
+}
+
+.why-us-content-container h4 {
+    font-family: 'GothamRnd-Bold';
+    color: white;
+}
+
+.why-us-content-container p {
+    font-family: 'GothamRnd-Book';
+    color: white;
+    text-align: center;
+    margin-top: 1.1em;
+    padding: 0 2.5em;
+    font-size: 1.1em
+}
+
+/*** WHY US ***/
+
+/*** CHOOSE US ***/
+
+.choose-us-title {
+    font-family: 'Gotham-Regular';
+    font-size: 3.5em;
+    color: white;
+}
+
+.list-choose-us {
+    margin-top: 40px;
+}
+
+.choose-us-content-container {
+    font-family: 'GothamRnd-Bold';
+    color: white;
+}
+
+.choose-us-content-container p {
+    font-family: 'GothamRnd-Book';
+    color: white;
+    text-align: center;
+    margin-top: 1.1em;
+    padding: 0 2.5em;
+    font-size: 1.1em
+}
+
+/*** CHOOSE US ***/
+
+/*** MODAL ***/
+
+.modal-dialog {
+    max-width: 75vw !important;
+    min-height: 75vh !important;
+}
+
+.close-button {
+    display: none;
+}
+
+.modal-content {
+    padding: 45px;
+    background-color: #005E9C;
+}
+
+.modal-form {
+    padding: 0 40px 0 0;
+}
+
+.modal-input-container {
+    margin-bottom: 20px;
+}
+
+.modal-input-container h4 {
+    font-family: 'GothamRnd-Bold';
+    color: white;
+    margin-bottom: 2px;
+}
+
+.modal-select {
+    width: 100%;
+    height: 50px;
+    padding: 0 10px 0 5px;
+    font-family: 'GothamRnd-Bold';
+}
+
+.modal-select-custom {
+    width: 100%;
+    height: 50px;
+    background-color: white;
+    padding: 0 10px 0 5px;
+    position: relative;
+    cursor: pointer;
+}
+
+.modal-select-custom span {
+    font-family: 'GothamRnd-Bold';
+    width: 90%;
+}
+
+.modal-select-content {
+    width: 100%;
+    background-color: white;
+    padding: 5px 10px 5px 5px;
+    margin-top: 3px;
+    display:none;
+}
+
+.modal-select-item {
+    font-family: 'GothamRnd-Bold';
+    padding: 6px 0;
+    cursor: pointer;
+}
+
+.modal-input {
+    width: 100%;
+    height: 50px;
+    padding: 0 10px 0 5px;
+    font-family: 'GothamRnd-Bold';
+}
+
+.modal-textarea {
+    width: 100%;
+    height: 200px;
+}
+
+.modal-button {
+    margin-right: auto;
+    font-family: 'GothamRnd-Bold';
+    background-color: #EF8122;
+    color: white;
+    border-radius: 15px;
+}
+
+.modal-icon-container {
+    width: 300px;
+    height: 300px;
+    background-color: #EF8122;
+    border-radius: 50%;
+    padding: 50px;
+}
+
+.modal-icon-container img {
+    width: 85%;
+}
+
+.modal-icon-container h4 {
+    font-family: 'GothamRnd-Bold';
+    color: #005E9C;
+}
+
+.modal-right-content p {
+    text-align: center;
+    margin-top: 20px;
+    color: white;
+    font-family: 'GothamRnd-Medium';
+    font-size: 1.06em;
+}
+
+/*** MODAL ***/
+
+/*** BLOG PAGE ***/
+
+.blog-headline {
+    margin-left: 70px;
+    color: #005E9C;
+    font-family: 'Gotham-Regular';
+    font-size: 2.7em;
+}
+
+.list-blog-container {
+    padding: 60px;
+}
+
+.blog-content-container {
+    margin: 40px 0;
+}
+
+.blog-image-container {
+    width: 100%;
+    background-color: #005E9C;
+    height: 240px;
+    padding: 20px;
+}
+
+.blog-image-container h3 {
+    word-spacing: 1px;
+    color: white;
+    font-family: 'Gotham-Regular';
+}
+
+
+.blog-content-date {
+    color: black;
+    font-family: 'GothamRnd-Bold';
+    font-size: 1.05em;
+    margin-top: 15px;
+}
+
+.blog-content-title {
+    font-family: 'GothamRnd-Bold';
+    color: #005E9C;
+}
+
+.blog-content-desc {
+    font-family: 'GothamRnd-Book';
+    font-size: 0.9em;
+}
+
+.blog-read-more {
+    background-color: #EF8122;
+    text-decoration: none;
+    color: white;
+    font-family: 'GothamRnd-Bold';
+    padding: 8px 10px;
+    border-radius: 10px;
+}
+
+.blog-read-more:hover {
+    color: #005E9C;
+    text-decoration: none;
+}
+
+/*** BLOG PAGE ***/
+
+/*** DETAIL BLOG PAGE ***/
+
+.detail-blog-container {
+    margin: 40px 0;
+}
+
+.detail-image-container {
+    width: 100%;
+    height: 450px;
+    background-color: #EF8122;
+}
+
+.detail-image-container h1 {
+    color: white;
+    font-size: 5em;
+    font-family: 'Gotham-Regular';
+}
+
+.detail-blog-title {
+    font-family: 'GothamRnd-Bold';
+    color: #005E9C;
+    margin-top: 50px;
+}
+
+.detail-blog-date {
+    font-family: 'GothamRnd-Bold';
+}
+
+.detail-blog-desc {
+    font-size: 1.2em;
+    margin: 70px 0;
+    font-family: 'GothamRnd-Book';
+}
+
+.detail-blog-other {
+    font-family: 'GothamRnd-Bold';
+    color: #005E9C;
+}
+
+/*** DETAIL BLOG PAGE ***/
+
+@media screen and (max-width: 575.98px) {  
+
+    /*** TOP NAV ***/
+
+    body .row-top-nav {
+        padding: 0 !important;
+    }
+
+    /*** TOP NAV ***/
+
+    /*** NAV ***/
+
+    body .navbar-brand {
+        padding-left: 0 !important;
+    }
+
+    /*** NAV ***/
+
+    /*** BANNER ***/
+
+    .row-banner {
+        padding: 9px 0 30px 0 !important;
+    }
+
+    .banner-content {
+        padding: 21px 0 0 0;
+    }
+
+
+    .banner-content h1 {
+        font-size: 0.9em !important;
+    }
+
+    .banner-content button {
+        font-size: 0.3em;
+    }
+
+    .btn-banner {
+        margin-top: 5px !important;
+        padding: 4px 10px !important;
+    }
+
+    .banner-image {
+        margin: 0 0 0 20px!important;
+        width: 55%;
+    }
+
+    .banner-blog {
+        bottom: 10px;
+    }
+
+    /*** BANNER ***/
+
+    /*** SERVICE ***/
+
+    .row-services {
+        padding: 30px 0 !important; 
+    }
+
+    .our-service-title {
+        font-size: 1em;
+    }
+
+    .list-service-container {
+        margin-top: 25px !important;
+        padding: 0 10px !important;
+    }
+
+    .service-icon-container {
+        width: 105px;
+        height: 105px;
+        margin-bottom: 30px;
+    }
+
+    .service-icon {
+        width: 50%;
+    }
+
+    .service-icon-container h5 {
+        font-size: 0.7em;
+        margin: 8px 0 !important;
+    }
+
+    /*** SERVICE ***/
+
+    /*** ABOUT US ***/
+
+    .row-about-us {
+        padding: 30px 0 !important;
+    }
+
+    .about-us-title {
+        font-size: 1.5em;
+    }
+
+    .list-about-us {
+        margin-top: 25px !important;
+        padding: 0 10px !important;
+    }
+
+    .image-about-us {
+        width: 100px;
+        height: 100px;
+    }
+
+    .about-us-single-title {
+        font-size: .75em;
+        margin-top: 10px !important;
+        margin-bottom: 5px !important;
+    }
+
+    .about-us-single-text {
+        text-align: center;
+        font-size: 0.6em;
+    }
+
+    /*** ABOUT US ***/
+
+    /*** WHY ***/
+
+    .row-why {
+        padding: 30px 0 !important;
+    }
+
+    .why-title {
+        font-size: 1.4em;
+    }
+
+    .mail-card-content {
+        padding: 20px 30px;
+    }
+
+    .mail-card-content h2 {
+        font-size: 1em;
+    }
+
+    .form-newsletter {
+        margin-top: 4.5vw;
+    }
+
+    .title-input-newsletter {
+        font-size: 0.9em;
+    }
+
+    .input-form-newsletter {
+        padding: 1px 6px;
+        font-size: 0.6em;
+        line-height: 30px;
+    }
+
+    .input-form-newsletter::placeholder {
+        vertical-align: middle;
+        font-size: 0.6em;
+        line-height: 30px;
+    }
+    
+    .btn-newsletter {
+        font-size: 0.7em;
+        margin-top: 23px;
+        padding: 5px 10px;
+    }
+
+    /*** WHY ***/
+
+    /*** CONTACT US ***/
+
+    .row-contact-us {
+        padding: 25px !important;
+    }
+
+    .contact-us-title {
+        padding: 0 !important;
+        font-size: 1.2em;
+    }
+
+    .input-contact-us {
+        width: 100%;
+        border: 1px solid #005E9C;
+        padding: 10px 14px;
+        border-radius: 15px;
+        font-family: 'GothamRnd-Bold';
+        font-size: 0.7em;
+    }
+
+    .input-contact-us::placeholder {
+        font-size: 0.8em;
+    }
+
+    .textarea-contact-us {
+        font-size: 0.7em;
+    }
+
+    .textarea-contact-us::placeholder {
+        font-size: 0.8em;
+    }
+
+    .btn-contact-us {
+        margin-top: 10px;
+        padding: 3px 12px;
+        background-color: #EF8122;
+        color: white;
+        border-radius: 10px;
+        font-size: 0.8em;
+    }
+
+    .contact-us-list {
+        margin-top: 10px;
+    }
+
+    .logo-colour {
+        margin-top: 15px;
+    }
+
+    .contact-us-address {
+        margin-top: 10px;
+        font-size: 1em;
+    }
+
+    .icon-contact-us-container {
+        width: 50px;
+        height: 50px;
+    }
+
+    .contact-us-list-content h5 {
+        font-size: 1em;
+    }
+    
+    /*** CONTACT US ***/
+
+    /*** FOOTER ***/
+
+    .row-footer {
+        padding: 10px !important;
+    }
+
+    .footer-logo {
+        height: 35px;
+    }
+
+
+    .footer-title {
+        font-size: 1em;
+    }
+
+    .footer-address {
+        font-size: 0.9em;
+    }
+
+    /*** FOOTER ***/
+
+    /*** WHY US ***/
+
+    .why-us-title {
+        font-size: 1.6em;
+    }
+
+    .list-why-us-container {
+        margin-top: 25px;
+    }
+
+    .why-us-icon {
+        width: 120px;
+    }
+
+    .why-us-content-container h4 {
+        font-size: 0.9em;
+    }
+
+    .why-us-content-container p {
+        text-align: center;
+        margin-top: 0.3em;
+        padding: 0 2.5em;
+        font-size: 0.4em;
+        margin-bottom: 0.5em;
+    }
+
+    /*** WHY US ***/
+
+    /*** CHOOSE US ***/
+
+    .choose-us-title {
+        font-size: 1.4em;
+        padding: 0 5px 0 10px;
+    }
+
+    .list-choose-us {
+        margin-top: 20px;
+    }
+
+    .choose-us-content-container {
+        font-family: 'GothamRnd-Bold';
+        color: white;
+    }
+
+    .choose-us-content-container img {
+        width: 120px;
+    }
+
+    .choose-us-content-container h4 {
+        text-align: center;
+        font-size: 0.9em;
+    }
+
+    .choose-us-content-container p {
+        text-align: center;
+        margin-top: 0.3em;
+        padding: 0 2.5em;
+        font-size: 0.4em;
+        margin-bottom: 0.5em;
+    }
+
+    /*** CHOOSE US ***/
+
+    /*** MODAL ***/
+
+    .modal-dialog {
+        max-width: 100vw !important;
+    }
+
+    .close-button {
+        display: block;
+        width: 100%;
+        margin-bottom: 30px;
+    }
+
+    .close-button button {
+        width: 100%;
+        font-family: 'GothamRnd-Bold';
+        background-color: #EF8122;
+        color: white;
+    }
+
+    .modal-content {
+        padding: 45px 20px;
+    }
+
+    .modal-form {
+        padding: 0;
+    }
+
+    .modal-input-container {
+        margin-bottom: 20px;
+    }
+
+    .modal-input-container h4 {
+        margin-bottom: 2px;
+        font-size: 1em;
+    }
+
+    .modal-select {
+        height: 40px;
+        padding: 0 10px 0 5px;
+        font-size: 0.9em;
+    }
+
+    .modal-input {
+        width: 100%;
+        height: 50px;
+        padding: 0 10px 0 5px;
+    }
+
+    .modal-textarea {
+        width: 100%;
+        height: 200px;
+    }
+
+    .modal-button {
+        font-size: 0.9em;
+    }
+
+    .modal-right-content {
+        margin-top: 40px;
+    }
+
+    .modal-icon-container {
+        width: 200px;
+        height: 200px;
+    }
+
+    .modal-icon-container img {
+        width: 90%;
+    }
+
+    .modal-icon-container h4 {
+        font-size: 1.2em;
+    }
+
+    .modal-right-content p {
+        font-size: 0.8em;
+    }
+
+    /*** MODAL ***/
+
+    /*** DETAIL BLOG PAGE ***/
+
+    .image-banner-blog {
+        width: 200px;
+        height: 200px;
+        position: relative;
+        right: 50px;
+    }
+
+    .blog-headline {
+        font-size: 1em;
+        position: relative;
+        left: 30px;
+        margin-left: 0;
+    }
+
+    /*** DETAIL BLOG PAGE ***/
+
+}
+
+
+@media screen and (min-width: 576px) {  
+    
+    /*** TOP NAV ***/
+
+    .row-top-nav {
+        padding: 0 0 0 9.5px!important;
+    }
+
+    /*** TOP NAV ***/
+
+    /*** NAV ***/
+
+    .navbar-brand {
+        padding-left: 9.5px !important;
+    }
+
+    /*** NAV ***/
+
+    /*** BANNER ***/
+
+    .row-banner {
+        padding: 9px 0 30px 9.5px !important;
+    }
+
+    .banner-content {
+        padding: 21px 0 0 0;
+    }
+
+
+    .banner-content h1 {
+        font-size: 1.45em !important;
+    }
+
+    .btn-banner {
+        margin-top: 5px !important;
+        padding: 4px 10px !important;
+        font-size: .75em !important;
+    }
+
+    .banner-image {
+        margin: 0 0 0 40px!important;
+        width: 55%;
+    }
+
+    .banner-blog {
+        bottom: 10px;
+    }
+
+    /*** BANNER ***/
+
+    /*** SERVICE ***/
+
+    .row-services {
+        padding: 30px 0 !important; 
+    }
+
+    .our-service-title {
+        font-size: 1em;
+    }
+
+    .list-service-container {
+        margin-top: 25px !important;
+        padding: 0 10px !important;
+    }
+
+    .service-icon-container {
+        width: 140px;
+        height: 140px;
+        margin-bottom: 30px;
+    }
+
+    .service-icon {
+        width: 55%;
+    }
+
+    .service-icon-container h5 {
+        font-size: .7em;
+        margin: 8px 0 !important;
+    }
+
+    /*** SERVICE ***/
+
+    /*** ABOUT US ***/
+
+    .row-about-us {
+        padding: 30px 0 !important;
+    }
+
+    .about-us-title {
+        font-size: 1.5em;
+    }
+
+    .list-about-us {
+        margin-top: 25px !important;
+        padding: 0 10px !important;
+    }
+
+    .image-about-us {
+        width: 130px;
+        height: 130px;
+    }
+
+    .about-us-single-title {
+        font-size: .85em;
+    }
+
+    .about-us-single-text {
+        text-align: center;
+        font-size: 0.6em;
+    }
+
+    /*** ABOUT US ***/
+
+    /*** WHY ***/
+
+    .why-title {
+        font-size: 2em;
+    }
+
+    .mail-card-content {
+        padding: 40px 45px;
+    }
+    
+    .mail-card-content h2 {
+        font-size: 1.5em;
+    }
+
+    .form-newsletter {
+        margin-top: 3.5vw;
+    }
+
+    .title-input-newsletter {
+        font-size: 1.2em;
+    }
+
+    .btn-newsletter {
+        margin-top: 30px;
+    }
+
+    /*** WHY ***/
+
+    /*** CONTACT US ***/
+
+    .row-contact-us {
+        padding: 25px !important;
+    }
+
+    .contact-us-title {
+        padding: 0 !important;
+        font-size: 1.2em;
+    }
+
+    .input-contact-us {
+        width: 100%;
+        border: 1px solid #005E9C;
+        padding: 10px 14px;
+        border-radius: 15px;
+        font-family: 'GothamRnd-Bold';
+        font-size: 0.7em;
+    }
+
+    .input-contact-us::placeholder {
+        font-size: 0.8em;
+    }
+
+    .textarea-contact-us {
+        font-size: 0.7em;
+    }
+
+    .textarea-contact-us::placeholder {
+        font-size: 0.8em;
+    }
+
+    .btn-contact-us {
+        margin-top: 10px;
+        padding: 3px 12px;
+        background-color: #EF8122;
+        color: white;
+        border-radius: 10px;
+        font-size: 0.8em;
+    }
+
+    .contact-us-list {
+        margin-top: 10px;
+    }
+
+    .logo-colour {
+        margin-top: 15px;
+    }
+
+    .contact-us-address {
+        margin-top: 10px;
+        font-size: 1em;
+    }
+
+    .icon-contact-us-container {
+        width: 50px;
+        height: 50px;
+    }
+
+    .contact-us-list-content h5 {
+        font-size: 1em;
+    }
+    
+    /*** CONTACT US ***/
+
+    /*** FOOTER ***/
+
+    .row-footer {
+        padding: 10px !important;
+    }
+
+    .footer-logo {
+        height: 35px;
+    }
+
+
+    .footer-title {
+        font-size: 1em;
+    }
+
+    .footer-address {
+        font-size: 0.9em;
+    }
+
+    /*** FOOTER ***/
+
+    /*** WHY US ***/
+
+    .why-us-title {
+        font-size: 1.6em;
+    }
+
+    .list-why-us-container {
+        margin-top: 25px;
+    }
+
+    .why-us-icon {
+        width: 160px
+    }
+
+    .why-us-content-container h4 {
+        font-size: 1.04em;
+        text-transform: uppercase;
+    }
+
+    .why-us-content-container p {
+        text-align: center;
+        margin-top: 0.3em;
+        padding: 0 2.5em;
+        font-size: 0.6em;
+        margin-bottom: 0.5em;
+    }
+
+    /*** WHY US ***/
+
+    /*** CHOOSE US ***/
+
+    .choose-us-title {
+        font-size: 1.4em;
+        padding: 0 5px 0 10px;
+    }
+
+    .list-choose-us {
+        margin-top: 20px;
+    }
+
+    .choose-us-content-container {
+        font-family: 'GothamRnd-Bold';
+        color: white;
+    }
+
+    .choose-us-content-container img {
+        width: 160px;
+    }
+
+    .choose-us-content-container h4 {
+        text-align: center;
+        font-size: 1.04em;
+        text-transform: uppercase;
+    }
+
+    .choose-us-content-container p {
+        text-align: center;
+        margin-top: 0.3em;
+        padding: 0 2.5em;
+        font-size: 0.6em;
+        margin-bottom: 0.5em;
+    }
+
+    /*** CHOOSE US ***/
+
+    /*** MODAL ***/
+
+    .modal-content {
+        padding: 45px 20px;
+    }
+
+    .modal-form {
+        padding: 0;
+    }
+
+    .modal-input-container {
+        margin-bottom: 20px;
+    }
+
+    .modal-input-container h4 {
+        margin-bottom: 2px;
+        font-size: 1em;
+    }
+
+    .modal-select {
+        height: 40px;
+        padding: 0 10px 0 5px;
+        font-size: 0.9em;
+    }
+
+    .modal-input {
+        width: 100%;
+        height: 50px;
+        padding: 0 10px 0 5px;
+    }
+
+    .modal-textarea {
+        width: 100%;
+        height: 200px;
+    }
+
+    .modal-button {
+        font-size: 0.9em;
+    }
+
+    .modal-right-content {
+        margin-top: 40px;
+    }
+
+    .modal-icon-container {
+        width: 200px;
+        height: 200px;
+    }
+
+    .modal-icon-container img {
+        width: 90%;
+    }
+
+    .modal-icon-container h4 {
+        font-size: 1.2em;
+    }
+
+    .modal-right-content p {
+        font-size: 0.8em;
+    }
+
+    /*** MODAL ***/
+
+    /*** DETAIL BLOG PAGE ***/
+
+    .image-banner-blog {
+        width: 300px;
+        height: 300px;
+        position: relative;
+    }
+
+    .blog-headline {
+        font-size: 1.3em;
+        position: relative;
+        left: 35px;
+        margin-left: 0;
+    }
+
+    /*** DETAIL BLOG PAGE ***/
+
+}
+
+@media screen and (min-width: 769px) { 
+
+    /*** TOP NAV ***/
+
+    .row-top-nav {
+        padding: 0 0 0 9.5px!important;
+    }
+
+    /*** TOP NAV ***/
+
+    /*** NAV ***/
+
+    .navbar-brand {
+        padding-left: 9.5px !important;
+    }
+
+    /*** NAV ***/
+
+    /*** BANNER ***/
+
+    .row-banner {
+        padding: 9px 0 30px 9.5px !important;
+    }
+
+    .banner-content {
+        padding: 21px 0 0 0;
+    }
+
+
+    .banner-content h1 {
+        font-size: 1.8em !important;
+    }
+
+    .btn-banner {
+        margin-top: 9px !important;
+        padding: 7px 15px !important;
+        font-size: .95em !important;
+    }
+
+    .banner-image {
+        margin: 0 0 0 40px!important;
+        width: 55%;
+    }
+
+    .banner-blog {
+        bottom: 10px;
+    }
+
+    /*** BANNER ***/
+
+    /*** SERVICE ***/
+
+    .row-services {
+        padding: 30px 0 !important; 
+    }
+
+    .our-service-title {
+        font-size: 1.3em;
+    }
+
+    .list-service-container {
+        margin-top: 35px !important;
+        padding: 0 30px !important;
+    }
+
+    .service-icon-container {
+        width: 170px;
+        height: 170px;
+        margin-bottom: 45px;
+    }
+
+    .service-icon {
+        width: 55%;
+    }
+
+    .service-icon-container h5 {
+        font-size: .87em;
+        margin: 5px 0 !important;
+    }
+
+    /*** SERVICE ***/
+
+    /*** ABOUT US ***/
+
+    .row-about-us {
+        padding: 30px 0 !important;
+    }
+
+    .about-us-title {
+        font-size: 1.9em;
+    }
+
+    .list-about-us {
+        margin-top: 35px !important;
+        padding: 0 30px !important;
+    }
+
+    .image-about-us {
+        width: 150px;
+        height: 150px;
+    }
+
+    .about-us-single-title {
+        font-size: .97em;
+    }
+
+    .about-us-single-text {
+        text-align: center;
+        font-size: 0.76em;
+    }
+
+    /*** ABOUT US ***/
+
+    /*** WHY ***/
+
+    .why-title {
+        font-size: 2em;
+    }
+    
+    .mail-card-content h2 {
+        font-size: 2.050em;
+    }
+
+    /*** WHY ***/
+
+
+    /*** CONTACT US ***/
+
+    .row-contact-us {
+        padding: 25px 40px 0 40px !important;
+    }
+
+    .contact-us-title {
+        padding: 0 !important;
+    }
+
+    .contact-us-title h1 {
+        font-size: 2.75em;
+    }
+
+    .contact-list {
+        padding: 0 !important;
+    }
+
+    .image-operator {
+        width: 100%;
+    }
+
+    .contact-icon-container {
+        width: 80px;
+        height: 80px;
+    }
+    
+    .contact-icon {
+        width: 100%;
+    }
+
+    .contact-detail-text {
+        font-size: 1.3em;
+    }
+
+    /*** CONTACT US ***/
+
+    /*** FOOTER ***/
+
+    .row-footer {
+        padding: 10px !important;
+    }
+
+    .footer-logo {
+        height: 70px;
+    }
+
+
+    .footer-title {
+        font-size: 2.4em;
+        margin-top: 5px !important;
+    }
+
+    /*** FOOTER ***/
+
+    /*** CONTACT US ***/
+
+    .row-contact-us {
+        padding: 25px !important;
+    }
+
+    .contact-us-title {
+        padding: 0 !important;
+        font-size: 1.2em;
+    }
+
+    .input-contact-us {
+        width: 100%;
+        border: 1px solid #005E9C;
+        padding: 10px 14px;
+        border-radius: 15px;
+        font-family: 'GothamRnd-Bold';
+        font-size: 0.7em;
+    }
+
+    .input-contact-us::placeholder {
+        font-size: 0.8em;
+    }
+
+    .textarea-contact-us {
+        font-size: 0.7em;
+    }
+
+    .textarea-contact-us::placeholder {
+        font-size: 0.8em;
+    }
+
+    .btn-contact-us {
+        margin-top: 10px;
+        padding: 3px 12px;
+        background-color: #EF8122;
+        color: white;
+        border-radius: 10px;
+        font-size: 0.8em;
+    }
+
+    .contact-us-list {
+        margin-top: 10px;
+    }
+
+    .contact-us-address {
+        margin-top: 30px;
+        font-size: 1em;
+    }
+
+    .icon-contact-us-container {
+        width: 50px;
+        height: 50px;
+    }
+
+    .contact-us-list-content h5 {
+        font-size: 1em;
+    }
+    
+    /*** CONTACT US ***/
+
+    /*** FOOTER ***/
+
+    .row-footer {
+        padding: 10px !important;
+    }
+
+    .footer-logo {
+        height: 50px;
+    }
+
+    .footer-title {
+        font-size: 1.3em;
+    }
+
+    .footer-address {
+        font-size: 1em;
+    }
+
+    /*** FOOTER ***/
+
+    /*** WHY US ***/
+
+    .why-us-title {
+        font-size: 1.6em;
+    }
+
+    .list-why-us-container {
+        margin-top: 25px;
+    }
+
+    .why-us-icon {
+        width: 200px;
+    }
+
+    .why-us-content-container h4 {
+        font-size: 1.1em
+    }
+
+    .why-us-content-container p {
+        text-align: center;
+        margin-top: 0.3em;
+        padding: 0 2.5em;
+        font-size: 0.8em;
+        margin-bottom: 0.5em;
+    }
+
+    /*** WHY US ***/
+
+    /*** CHOOSE US ***/
+
+    .choose-us-title {
+        font-size: 1.4em;
+        padding: 0 5px 0 10px;
+    }
+
+    .list-choose-us {
+        margin-top: 20px;
+    }
+
+    .choose-us-content-container {
+        font-family: 'GothamRnd-Bold';
+        color: white;
+    }
+
+    .choose-us-content-container img {
+        width: 200px;
+    }
+
+    .choose-us-content-container h4 {
+        text-align: center;
+        font-size: 1.1em;
+    }
+
+    .choose-us-content-container p {
+        text-align: center;
+        margin-top: 0.3em;
+        padding: 0 2.5em;
+        font-size: 0.8em;
+        margin-bottom: 0.5em;
+    }
+
+    /*** CHOOSE US ***/
+
+ }
+
+@media screen and (min-width: 992px) { 
+    /*** TOP NAV ***/
+
+    .row-top-nav {
+        padding: 0 0 0 9.5px!important;
+    }
+
+    /*** TOP NAV ***/
+
+    /*** NAV ***/
+
+    .navbar-brand {
+        padding-left: 9.5px !important;
+    }
+
+    /*** NAV ***/
+
+    /*** BANNER ***/
+
+    .row-banner {
+        padding: 9px 0 30px 9.5px !important;
+    }
+
+    .banner-content {
+        padding: 21px 0 0 0;
+    }
+
+
+    .banner-content h1 {
+        font-size: 1.8em !important;
+    }
+
+    .btn-banner {
+        margin-top: 9px !important;
+        padding: 7px 15px !important;
+        font-size: .95em !important;
+    }
+
+    .banner-image {
+        margin: 0 0 0 40px!important;
+        width: 55%;
+    }
+
+    .banner-blog {
+        bottom: 10px;
+    }
+
+    /*** BANNER ***/
+
+    /*** SERVICE ***/
+
+    .row-services {
+        padding: 30px 0 !important; 
+    }
+
+    .our-service-title {
+        font-size: 1.3em;
+    }
+
+    .list-service-container {
+        margin-top: 35px !important;
+        padding: 0 30px !important;
+    }
+
+    .service-icon-container {
+        width: 170px;
+        height: 170px;
+        margin-bottom: 45px;
+    }
+
+    .service-icon {
+        width: 55%;
+    }
+
+    .service-icon-container h5 {
+        font-size: .87em;
+        margin: 5px 0 !important;
+    }
+
+    /*** SERVICE ***/
+
+    /*** ABOUT US ***/
+
+    .row-about-us {
+        padding: 30px 0 !important;
+    }
+
+    .about-us-title {
+        font-size: 1.9em;
+    }
+
+    .list-about-us {
+        margin-top: 35px !important;
+        padding: 0 30px !important;
+    }
+
+    .image-about-us {
+        width: 150px;
+        height: 150px;
+    }
+
+    .about-us-single-title {
+        font-size: .97em;
+    }
+
+    .about-us-single-text {
+        text-align: center;
+        font-size: 0.76em;
+    }
+
+    /*** ABOUT US ***/
+
+    /*** WHY ***/
+
+    .form-newsletter {
+        margin-top: 2.5vw;
+    }
+
+    /*** WHY ***/
+
+    /*** CONTACT US ***/
+
+    .row-contact-us {
+        padding: 25px !important;
+    }
+
+    .contact-us-title {
+        padding: 0 !important;
+        font-size: 1.2em;
+    }
+
+    .input-contact-us {
+        width: 100%;
+        border: 1px solid #005E9C;
+        padding: 10px 14px;
+        border-radius: 15px;
+        font-family: 'GothamRnd-Bold';
+        font-size: 0.7em;
+    }
+
+    .input-contact-us::placeholder {
+        font-size: 0.8em;
+    }
+
+    .textarea-contact-us {
+        font-size: 0.7em;
+    }
+
+    .textarea-contact-us::placeholder {
+        font-size: 0.8em;
+    }
+
+    .btn-contact-us {
+        margin-top: 10px;
+        padding: 3px 12px;
+        background-color: #EF8122;
+        color: white;
+        border-radius: 10px;
+        font-size: 0.8em;
+    }
+
+    .contact-us-list {
+        margin-top: 10px;
+    }
+
+    .contact-us-address {
+        margin-top: 30px;
+        font-size: 1em;
+    }
+
+    .icon-contact-us-container {
+        width: 50px;
+        height: 50px;
+    }
+
+    .contact-us-list-content h5 {
+        font-size: 1em;
+    }
+    
+    /*** CONTACT US ***/
+
+    /*** FOOTER ***/
+
+    .row-footer {
+        padding: 10px !important;
+    }
+
+    .footer-logo {
+        height: 70px;
+    }
+
+    .footer-title {
+        font-size: 1.6em;
+    }
+
+    .footer-address {
+        font-size: 1.3em;
+    }
+
+    /*** FOOTER ***/
+
+    /*** WHY US ***/
+
+    .why-us-title {
+        font-size: 1.6em;
+    }
+
+    .list-why-us-container {
+        margin-top: 25px;
+    }
+
+    .why-us-icon {
+        width: 200px;
+    }
+
+    .why-us-content-container h4 {
+        font-size: 1.1em
+    }
+
+    .why-us-content-container p {
+        text-align: center;
+        margin-top: 0.3em;
+        padding: 0 2.5em;
+        font-size: 0.8em;
+        margin-bottom: 0.5em;
+    }
+
+    /*** WHY US ***/
+
+    /*** CHOOSE US ***/
+
+    .choose-us-title {
+        font-size: 1.4em;
+        padding: 0 5px 0 10px;
+    }
+
+    .list-choose-us {
+        margin-top: 20px;
+    }
+
+    .choose-us-content-container {
+        font-family: 'GothamRnd-Bold';
+        color: white;
+    }
+
+    .choose-us-content-container img {
+        width: 200px;
+    }
+
+    .choose-us-content-container h4 {
+        text-align: center;
+        font-size: 1.1em;
+    }
+
+    .choose-us-content-container p {
+        text-align: center;
+        margin-top: 0.3em;
+        padding: 0 2.5em;
+        font-size: 0.8em;
+        margin-bottom: 0.5em;
+    }
+
+    /*** CHOOSE US ***/
+ }
+
+@media screen and (min-width: 1200px) { 
+    /*** TOP NAV ***/
+
+    .row-top-nav {
+        padding: 0 0 0 47.5px!important;
+    }
+
+    /*** TOP NAV ***/
+
+    /*** NAV ***/
+
+    .navbar-brand {
+        padding-left: 47.5px !important;
+    }
+
+    /*** NAV ***/
+
+    /*** BANNER ***/
+
+    .row-banner {
+        padding: 9px 0 30px 47.5px !important;
+    }
+
+    .banner-content {
+        padding: 21px 0 0 0;
+    }
+
+
+    .banner-content h1 {
+        font-size: 3.2em !important;
+    }
+
+    .btn-banner {
+        margin-top: 20px !important;
+        padding: 10px 20px !important;
+        font-size: 1.2em !important;
+    }
+
+    .banner-image {
+        margin: 0 0 0 90px!important;
+        width: 55%;
+    }
+
+    .banner-blog {
+        bottom: 10px;
+    }
+
+    /*** BANNER ***/
+
+    /*** SERVICE ***/
+
+    .row-services {
+        padding: 30px 0 !important; 
+    }
+
+    .our-service-title {
+        font-size: 1.85em;
+    }
+
+    .list-service-container {
+        margin-top: 50px !important;
+        padding: 0 47.5px !important;
+    }
+
+    .service-icon-container {
+        width: 210px;
+        height: 210px;
+        margin-bottom: 80px;
+    }
+
+    .service-icon {
+        width: 52%;
+    }
+
+    .service-icon-container h5 {
+        font-size: 1.15em;
+        margin: 5px 0 !important;
+    }
+
+    /*** SERVICE ***/
+
+    /*** ABOUT US ***/
+
+    .row-about-us {
+        padding: 30px 0 !important;
+    }
+
+    .about-us-title {
+        font-size: 2.5em;
+    }
+
+    .list-about-us {
+        margin-top: 35px !important;
+        padding: 0 30px !important;
+    }
+
+    .about-us-container {
+        padding: 0 50px;
+    }
+
+    .image-about-us {
+        width: 170px;
+        height: 170px;
+    }
+
+    .about-us-single-title {
+        font-size: 1.27em;
+    }
+
+    .about-us-single-text {
+        text-align: center;
+        font-size: 0.87em;
+    }
+
+    /*** ABOUT US ***/
+
+    /*** WHY ***/
+
+    .why-title {
+        font-size: 3em;
+    }
+
+    .mail-card-content {
+        padding: 50px 60px;
+    }
+    
+    .mail-card-content h2 {
+        font-size: 3.2em;
+    }
+
+    .title-input-newsletter {
+        color: #005E9C;
+        font-family: 'GothamRnd-Bold';
+        font-size: 1.6em;
+    }
+
+    .btn-newsletter {
+        font-size: 1.5em;
+        margin-top: 4vw;
+    }
+
+    /*** WHY ***/
+
+    /*** CONTACT US ***/
+
+    .contact-us-title {
+        font-family: 'Gotham-Regular';
+        color: #005E9C;
+        font-size: 50px;
+    }
+
+    .input-contact-us-container {
+        margin: 10px 0;
+    }
+
+    .input-contact-us {
+        width: 100%;
+        border: 1px solid #005E9C;
+        padding: 14px 18px;
+        border-radius: 18px;
+        font-family: 'GothamRnd-Bold';
+    }
+
+    .input-contact-us::placeholder {
+        font-family: 'GothamRnd-Bold';
+        color: black;
+        font-size: 1.2em;
+    }
+
+    .input-contact-us:focus {
+        outline: none;
+    }
+
+    .textarea-contact-us {
+        width: 100%;
+        border: 1px solid #005E9C;
+        padding: 14px 18px;
+        border-radius: 18px;
+        font-family: 'GothamRnd-Bold';
+        height: 160px;
+    }
+
+    .textarea-contact-us::placeholder {
+        font-family: 'GothamRnd-Bold';
+        color: black;
+        font-size: 1.2em;
+    }
+
+    .textarea-contact-us:focus {
+        outline: none;
+    }
+
+    .btn-contact-us {
+        margin-top: 10px;
+        margin-right: auto;
+        padding: 5px 20px;
+        background-color:#EF8122;
+        color: white;
+        border-radius: 10px;
+        font-family: 'GothamRnd-Medium';
+        font-size: 1.3em;
+    }
+
+    .contact-us-address {
+        font-family: 'GothamRnd-Medium';
+        color: #005E9C;
+        font-size: 1.6em;
+        
+    }
+
+    .contact-us-address-first {
+        font-family: 'Gotham-Regular';
+    }
+
+    .contact-us-list {
+        margin-top: 30px;
+    }
+
+    .icon-contact-us-container {
+        width: 70px;
+        height: 70px;
+        border-radius: 50%;
+        background-color: #EF8122;
+    }
+
+    .icon-contact-us-container img {
+        width: 100%;
+        padding: 5px;
+    }
+
+    .contact-us-list-content {
+        margin-top: 15px;
+    }
+
+    .contact-us-list-content h5 {
+        margin-left: 1em;
+        font-family: 'GothamRnd-Medium';
+        color: #005E9C;
+        font-size: 1.3em;
+    }
+    /*** CONTACT US ***/
+    
+    /*** WHY US ***/
+
+    .why-us-title {
+        color: white;
+        font-family: 'Gotham-Regular';
+        font-size: 2em;
+    }
+
+    .list-why-us-container {
+        margin-top: 40px;
+    }
+
+    .why-us-content-container h4 {
+        font-family: 'GothamRnd-Bold';
+        color: white;
+    }
+
+    .why-us-content-container p {
+        font-family: 'GothamRnd-Book';
+        color: white;
+        text-align: center;
+        margin-top: 1.1em;
+        padding: 0 2.5em;
+        font-size: 1.1em
+    }
+
+    /*** WHY US ***/
+
+    /*** CHOOSE US ***/
+
+    .choose-us-title {
+        font-family: 'Gotham-Regular';
+        font-size: 3.5em;
+        color: white;
+    }
+
+    .list-choose-us {
+        margin-top: 40px;
+    }
+
+    .choose-us-content-container {
+        font-family: 'GothamRnd-Bold';
+        color: white;
+    }
+
+    .choose-us-content-container p {
+        font-family: 'GothamRnd-Book';
+        color: white;
+        text-align: center;
+        margin-top: 1.1em;
+        padding: 0 2.5em;
+        font-size: 1.1em
+    }
+
+    /*** CHOOSE US ***/
+
+    /*** MODAL ***/
+
+    .modal-dialog {
+        max-width: 75vw !important;
+        min-height: 75vh !important;
+    }
+
+    .close-button {
+        display: none;
+    }
+
+    .modal-content {
+        padding: 45px;
+        background-color: #005E9C;
+    }
+
+    .modal-form {
+        padding: 0 40px 0 0;
+    }
+
+    .modal-input-container {
+        margin-bottom: 20px;
+    }
+
+    .modal-input-container h4 {
+        font-family: 'GothamRnd-Bold';
+        color: white;
+        margin-bottom: 2px;
+    }
+
+    .modal-select {
+        width: 100%;
+        height: 50px;
+        padding: 0 10px 0 5px;
+        font-family: 'GothamRnd-Bold';
+    }
+
+    .modal-input {
+        width: 100%;
+        height: 50px;
+        padding: 0 10px 0 5px;
+    }
+
+    .modal-textarea {
+        width: 100%;
+        height: 200px;
+    }
+
+    .modal-button {
+        margin-right: auto;
+        font-family: 'GothamRnd-Bold';
+        background-color: #EF8122;
+        color: white;
+        border-radius: 15px;
+    }
+
+    .modal-icon-container {
+        width: 300px;
+        height: 300px;
+        background-color: #EF8122;
+        border-radius: 50%;
+        padding: 50px;
+    }
+
+    .modal-icon-container img {
+        width: 85%;
+    }
+
+    .modal-icon-container h4 {
+        font-family: 'GothamRnd-Bold';
+        color: #005E9C;
+    }
+
+    .modal-right-content p {
+        text-align: center;
+        margin-top: 20px;
+        color: white;
+        font-family: 'GothamRnd-Medium';
+        font-size: 1.06em;
+    }
+
+    /*** MODAL ***/
+
+    /*** DETAIL BLOG PAGE ***/
+
+    body .image-banner-blog {
+        width: 700px;
+        height: 384px;
+    }
+
+    body .blog-headline {
+        font-size: 2.7em;
+    }
+
+    /*** DETAIL BLOG PAGE ***/
+}
+
+
